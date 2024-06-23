@@ -1,0 +1,21 @@
+.modal-content {
+    margin: 5% auto; /* Centrar vertical y horizontalmente */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 90%; /* Ancho del 90% */
+    max-width: 900px; /* Máximo ancho de 900px */
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
